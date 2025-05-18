@@ -1,0 +1,92 @@
+.Laped {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .div1 {
+    display: inline-block;
+    height: 320px;
+    width: 280px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(204, 157, 248);
+    padding-left: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Stopwatch {
+    font-weight: bold;
+    color: rgb(1, 1, 1);
+    font-size: 22px;
+    margin-bottom: 10px;
+    user-select: none;
+  }
+  
+  .time {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+    user-select: none;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .Start,
+  .Stop,
+  .Reset,
+  .Lap {
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    transition: 0.2s;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 14px;
+    margin: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Start:hover,
+  .Stop:hover,
+  .Reset:hover,
+  .Lap:hover {
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .lap-times {
+    margin-top: 5px;
+    height: 60px; /* fixed height for lap times container */
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    user-select: none;
+  }
+  
+  .lap-times::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .lap-times::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.4);
+    border-radius: 4px;
+  }
+  
